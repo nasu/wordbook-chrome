@@ -1,0 +1,21 @@
+{
+  "name": "Example",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Example",
+  "permissions": [
+      "contextMenus",
+      "http://localhost/",
+      "http://public.dejizo.jp/"
+  ],
+  "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": [
+      "zepto.min.js",
+      "background.js"
+    ]
+  }
+}
