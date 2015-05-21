@@ -1,0 +1,5 @@
+{
+    "save_url": "http://localhost:8000/word/",
+    "search_url": "http://public.dejizo.jp/NetDicV09.asmx/SearchDicItemLite?Dic=EJdict&Scope=HEADWORD&Match=STARTWITH&Merge=AND&Prof=XHTML&PageSize=1&PageIndex=0&Word=",
+    "get_url": "http://public.dejizo.jp/NetDicV09.asmx/GetDicItemLite?Dic=EJdict&Loc=&Prof=XHTML&Item="
+}
